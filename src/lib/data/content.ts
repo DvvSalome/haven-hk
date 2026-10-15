@@ -333,19 +333,54 @@ export const supportersHeading = "Our Supporters";
 
 export const supporters: Sponsor[] = [
   {
-    name: "HCB 1",
-    href: "https://hcb.hackclub.com",
-    image: "/images/sponsors/logos/hcb-icon.webp",
+    name: "CodeCrafters",
+    role: "Platform partner · YC S22",
+    tier: "diamond",
+    href: "https://codecrafters.io/",
   },
   {
-    name: "HCB 2",
-    href: "https://hcb.hackclub.com",
-    image: "/images/sponsors/logos/hcb-icon.webp",
+    name: ".xyz Domain Names",
+    role: "Domain partner",
+    tier: "gold",
+    href: "https://dot.xyz/",
   },
   {
-    name: "HCB 3",
-    href: "https://hcb.hackclub.com",
-    image: "/images/sponsors/logos/hcb-icon.webp",
+    name: "Hack Club",
+    role: "Organizer",
+    tier: "ally",
+    href: "https://hackclub.com/",
+  },
+];
+
+export const rulesHeading = "Event Rules";
+
+export const rulesIntro =
+  "Haven Puerto Colombia is an in-person, free game jam for teens. These are the rules for the weekend and for the prizes.";
+
+export const rules: { title: string; body: string }[] = [
+  {
+    title: "Who can join",
+    body: "Anyone aged 13 to 18. No experience needed. The jam is in person in Puerto Colombia on November 14 and 15, 2026, and it is free.",
+  },
+  {
+    title: "What you do",
+    body: "Make a video game during the weekend. Any engine or tool is fine. You can work alone or with friends.",
+  },
+  {
+    title: "How prizes are given",
+    body: "Prizes and merch go to projects that publish a game on itch.io that other people can open and play. A build that doesn't run doesn't count.",
+  },
+  {
+    title: "The game has to be yours",
+    body: "Build it during the jam. Credit any asset packs, tutorials and tools you used. Don't submit someone else's game as your own.",
+  },
+  {
+    title: "What is not allowed",
+    body: "Nothing NSFW, hateful or excessively graphic. The Hack Club code of conduct applies all weekend, and organizers can ask someone to leave if they break it.",
+  },
+  {
+    title: "Questions",
+    body: "Parents, participants and sponsors can write to puerto-colombia@haven.hackclub.com. The schedule is updated hour by hour. Signing up is the best way to stay informed.",
   },
 ];
 

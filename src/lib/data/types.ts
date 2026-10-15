@@ -79,7 +79,11 @@ export type FaqItem = z.infer<typeof faqItemSchema>;
 
 const sponsorSchema = z.object({
   name: z.string(),
-  image: srcSchema,
+  /** Shown under the name on the card, e.g. "Platform partner". */
+  role: z.string().optional(),
+  /** Which group the card sits in on the sponsors section. */
+  tier: z.enum(["diamond", "gold", "ally"]).optional(),
+  image: srcSchema.optional(),
   href: hrefSchema,
 });
 export type Sponsor = z.infer<typeof sponsorSchema>;

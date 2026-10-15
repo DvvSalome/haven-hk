@@ -9,9 +9,10 @@
   import PastEvents from "$lib/components/PastEvents.svelte";
   import Faq from "$lib/components/Faq.svelte";
   import SiteFooter from "$lib/components/SiteFooter.svelte";
-  // import Sponsors from "$lib/components/Sponsors.svelte";
+  import Rules from "$lib/components/Rules.svelte";
+  import SponsorTiers from "$lib/components/SponsorTiers.svelte";
   // import Schedule from "$lib/components/Schedule.svelte";
-  // import { supporters, supportersHeading } from "$lib/data/content";
+  import { supporters, supportersHeading } from "$lib/data/content";
   // import { schedule, scheduleHeading } from "$lib/data/content";
 
   let { data } = $props();
@@ -52,9 +53,9 @@
     <PastEvents />
   </div>
 
-  <!--
-  <Sponsors heading={supportersHeading} items={supporters} />
-  -->
+  <Rules />
+
+  <SponsorTiers heading={supportersHeading} items={supporters} />
 
   <Faq />
 </main>
