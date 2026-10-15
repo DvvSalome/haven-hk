@@ -85,7 +85,7 @@
           alt="Hack Club Haven"
           width="778"
           height="445"
-          class="w-[clamp(16rem,40vw,46rem)] max-w-none"
+          class="w-[clamp(13rem,26vw,36rem)] max-w-none"
         />
         <h1
           class="glow-orange m-0 mt-[clamp(0.25rem,1vw,1rem)] font-display text-[clamp(2rem,6vw,6rem)] leading-none text-white"
