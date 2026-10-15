@@ -80,20 +80,18 @@
       <div
         class="mx-auto flex w-full flex-col items-center px-[clamp(1rem,4vw,8rem)] text-center"
       >
-        <div class="grid grid-cols-2 mx-auto max-w-[1700px]">
-          <img
-            src={images.logo}
-            alt="Hack Club Haven"
-            width="778"
-            height="445"
-            class="w-[120%] max-w-none"
-          />
-          <h1
-            class="m-0 font-display text-[clamp(1rem,8vw,10rem)] leading-[clamp(1rem,6vw,8rem)]  text-white translate-y-[75%] translate-x-[-10%] sm:text-hero sm:leading-[clamp(1rem,4vw,8rem)]"
-          >
-            {title.join(" ")}
-          </h1>
-        </div>
+        <img
+          src={images.logo}
+          alt="Hack Club Haven"
+          width="778"
+          height="445"
+          class="w-[clamp(16rem,40vw,46rem)] max-w-none"
+        />
+        <h1
+          class="glow-orange m-0 mt-[clamp(0.25rem,1vw,1rem)] font-display text-[clamp(2rem,6vw,6rem)] leading-none text-white"
+        >
+          {title.join(" ")}
+        </h1>
 
         <p
           class="glow-orange mt-[clamp(1rem,10vw,10rem)] text-[clamp(1rem,4vw,8rem)] leading-[clamp(1rem,4.75vw,5rem)] font-body text-center text-white sm:mt-[clamp(0.5rem,2vw,4rem)] sm:text-[clamp(1.25rem,2vw,4rem)] sm:leading-[clamp(1.5rem,2.75vw,5rem)]"

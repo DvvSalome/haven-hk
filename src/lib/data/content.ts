@@ -17,8 +17,8 @@ export const meta = {
 
 export const event = {
   name: "Haven",
-  title: [],
-  tagline: ["Game jam for teens in 200+ cities", "Nov 14–15, 2026"],
+  title: ["Puerto Colombia"],
+  tagline: ["Game jam for teens 13–18", "Nov 14–15, 2026"],
 } as const;
 
 export const organizeCta = {
